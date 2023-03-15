@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>FrontEnd Store</title>
+    
+</head>
+<body>
+    
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="/img/logo.png" alt="Logo">
+        </a>
+    </header>
+
+    <nav class="nav">
+        <a class="nav__link nav__link--active" href="index.html">Tienda</a>
+        <a class="nav__link" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="container">
+        <h1>ReactJS</h1>
+
+        <div class="shirt">
+            <img class="shirt__img" src="/img/3.jpg" alt="imagen producto">
+
+            <div class="shirt__content">
+                <p class="shirt__text">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+
+                <form class="shirt__form">
+                    <select class="shirt__field">
+                        <option disabled selected>-- Seleccionar talla -- </option>
+                        <option>Pequeña</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="shirt__field" type="number" min="1" placeholder="Cantidad">
+                    <input class="shirt__button" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">FrontEnd Store - Todos los derechos reservados 2022.</p>
+    </footer>
+
+</body>
+</html>
